@@ -187,3 +187,9 @@ ol{
   list-style-type: circle;
   padding:2%;
 }
+
+iframe{
+  display:block;
+  border-style: double;
+  margin:0 auto;
+}

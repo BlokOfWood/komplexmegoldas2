@@ -66,7 +66,9 @@ function checkResults()
   var data = new FormData(quizElement);
   var output = "";
   for (const entry of data) {
-    output = output + entry[0] + "=" + entry[1] + "\r";
+    output = output + entry[0] + "=" + entry[1] + ";";
+    if(hashString(entry[1]) == Quiz.find((x) => x.Question == entry[0]).AnswerHash)
+      points++;
   };
-  return output;
+  return [points, output];
 }

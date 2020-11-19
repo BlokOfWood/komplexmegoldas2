@@ -47,6 +47,7 @@ function init()
   {
     addQuizElement(i);
   }
+  quizElement.innerHTML += '<input type="button" onclick="checkResults()" value="Beadás">'
 }
 
 function addQuizElement (questionIndex) {
@@ -70,5 +71,6 @@ function checkResults()
     if(hashString(entry[1]) == Quiz.find((x) => x.Question == entry[0]).AnswerHash)
       points++;
   };
+  document.getElementById("Result").innerHTML="Pontszám: " + points + "/" + Quiz.length;
   return [points, output];
 }

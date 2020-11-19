@@ -27,17 +27,17 @@ var Quiz = [
     {
         Question: "Hányféle háttértípus létezik a mai világban?",
         Answers: ["1", "2", "3", "4"],
-        AnswerHash: "817254420"
+        AnswerHash: "51"
     },
     {
         Question: "A felsoroltak közül melyik optikai meghajtó?",
         Answers: ["Mágneses szalag", "CD meghajtó", "Pendrive"],
-        AnswerHash: "817254420"
+        AnswerHash: "860527040"
     },
     {
         Question: "Leggyorsabb háttértár a felsoroltak közül?",
         Answers: ["Merevlemez", "DVD", "Blue-ray", "SSD"],
-        AnswerHash: "817254420"
+        AnswerHash: "82404"
     }
 ]
 function init()

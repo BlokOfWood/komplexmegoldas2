@@ -5,6 +5,8 @@ h1
 div{
     color: white;
     width: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 ul{
@@ -195,5 +197,11 @@ iframe{
 }
 
 form{
+  color:white;
+  margin-left: 3rem;
+}
+#Result{
+  margin-top: 3rem;
+  margin-left: 3rem;
   color:white;
 }

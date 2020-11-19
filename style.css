@@ -193,3 +193,7 @@ iframe{
   border-style: double;
   margin:0 auto;
 }
+
+form{
+  color:white;
+}

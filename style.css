@@ -3,8 +3,8 @@ h1
     text-align: center;
 }
 div{
-    background-color: black;
     color: white;
+    width: auto;
 }
 
 ul{
@@ -15,19 +15,19 @@ ul{
     position:sticky;
 }
 
-li{
-    display: block;
+.menu{
     background-color: black;
+    display: block;
     width: 20%;
     text-align: center;
     float:left;
 }
 
-li:hover{
+.menu:hover{
     background-color: grey;
 }
 
-li:active{
+.menu:active{
     background-color: green;
 }
 
@@ -176,9 +176,14 @@ html, body {
 }
 
 body{
-  margin-left: 2rem;
+  background-color: black;
 }
 
 #tartalom{
   background-color: rgba(255, 255, 255, 0);
+}
+
+ol{
+  list-style-type: circle;
+  padding:2%;
 }

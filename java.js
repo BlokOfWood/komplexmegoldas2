@@ -12,3 +12,21 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+
+var quizElement = document.getElementById("Quiz");
+
+Quiz = [
+    {
+        Question: "Test",
+        Answers: ["Answer1", "Answer2", "Answer3", "Answer4"],
+        AnswerHash: ""
+    }
+]
+
+function addQuizElement (questionIndex) {
+    quizElement.innerHTML += 
+        "<h2>" + Quiz[questionIndex].Question + "</h2>\n";
+    Quiz[questionIndex].Answers.forEach(element => {
+        quizElement.innerHTML += "<li>"+element+"</li>\n"
+    });
+}

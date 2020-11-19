@@ -25,18 +25,18 @@ var quizElement;
 
 var Quiz = [
     {
-        Question: "Test",
-        Answers: ["Answer1", "Answer2", "Answer3", "Answer4"],
+        Question: "Hányféle háttértípus létezik a mai világban?",
+        Answers: ["1", "2", "3", "4"],
         AnswerHash: "817254420"
     },
     {
-        Question: "Test1",
-        Answers: ["Answer1", "Answer2", "Answer3", "Answer4"],
+        Question: "A felsoroltak közül melyik optikai meghajtó?",
+        Answers: ["Mágneses szalag", "CD meghajtó", "Pendrive"],
         AnswerHash: "817254420"
     },
     {
-        Question: "Test2",
-        Answers: ["Answer1", "Answer2", "Answer3", "Answer4"],
+        Question: "Leggyorsabb háttértár a felsoroltak közül?",
+        Answers: ["Merevlemez", "DVD", "Blue-ray", "SSD"],
         AnswerHash: "817254420"
     }
 ]

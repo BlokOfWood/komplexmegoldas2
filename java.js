@@ -13,6 +13,14 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+function hashString(string)
+{
+  var h = 0, l = string.length, i = 0;
+  if ( l > 0 )
+    while (i < l)
+      h = (h << 5) - h + string.charCodeAt(i++) | 0;
+  return h;
+}
 var quizElement = document.getElementById("Quiz");
 
 Quiz = [
